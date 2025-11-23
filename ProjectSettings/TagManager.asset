@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Collider
+  - SpawnPoint
+  - Rooms
+  - RoomTemp
+  - Door
+  - LeftDoor
+  - RightDoor
+  - TopDoor
+  - BottomDoor
+  - Distractable
+  - Enemy
+  - Box
+  - Barrel
+  - A
+  - BlueTile
+  - Corridor
+  - Coins
+  - HealingPotion
+  - StaminaPotion
+  - CmMiniMapCam
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Obestcels
+  - Enemy
+  - Enviroment
+  - Distarctable
+  - MiniMap
+  - Doors
+  - Coins
+  - Chest
+  - Collectable
+  - Pickable
+  - Camera
+  - Camera2
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 1781731779
+    locked: 0
+  - name: 2
+    uniqueID: 4119887003
+    locked: 0
+  - name: 3
+    uniqueID: 290099673
+    locked: 0
+  - name: 4
+    uniqueID: 3225924971
+    locked: 0
+  - name: 5
+    uniqueID: 4178942451
+    locked: 0
+  - name: 6
+    uniqueID: 386968033
+    locked: 0
+  - name: 7
+    uniqueID: 712331395
+    locked: 0
+  - name: 8
+    uniqueID: 2568345519
+    locked: 0
+  - name: Particle
+    uniqueID: 202701343
+    locked: 0
+  - name: FontLayer
+    uniqueID: 856664679
+    locked: 0

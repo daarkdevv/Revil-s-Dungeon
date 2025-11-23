@@ -1,0 +1,128 @@
+# This repository tracks scripts only
+# Art assets, generated files, and cache are ignored
+
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Generated files
+*.log
+*.apk
+*.unitypackage
+*.meta
+
+# Build artifacts
+*.exe
+*.app
+*.dmg
+*.ipa
+*.aar
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Visual Studio
+.vs/
+*.csproj.user
+*.sln.user
+bin/
+obj/
+
+# Package manager
+.gradle/
+build/
+
+# IDE
+.idea/
+*.iml
+
+# Art assets - IGNORED (keep local, don't commit)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.psd
+*.aseprite
+*.ase
+
+# Audio assets - IGNORED
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.aiff
+
+# Video assets - IGNORED
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# 3D models - IGNORED
+*.fbx
+*.obj
+*.blend
+*.3ds
+*.dae
+
+# Font files - IGNORED
+*.ttf
+*.otf
+*.fnt
+
+# Scene files - IGNORED (these contain references to art assets)
+*.unity
+
+# Prefab files - IGNORED (these reference art assets)
+*.prefab
+
+# Material files - IGNORED
+*.mat
+
+# Animation files - IGNORED
+*.anim
+
+# ScriptableObject data files that reference assets - IGNORED
+# (But .asset files for pure data scripts are included in commits)
+Assets/**/Resources/
+Assets/**/*.asset
+!Assets/ScriptableObjects/
+
+# Rider
+.idea/
+.idea_modules/
+*.sln.iml
+
+# Never commit these temporary files
+.gradle
+.m2
+*.jar
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Keep scripts and configurations tracked
+!*.cs
+!.gitignore
+!.gitattributes
+!README.md
+!*.json
+!*.yaml
+!*.yml
+!
